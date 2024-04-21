@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.page-body {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    color: honeydew;
+    font-family: "Candara Light", serif;
+    min-height: 100vh;
+    background-color: #9dde9d;
+    background-image: url(/public/img/zoo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-main {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    backdrop-filter: blur(10px);
+}
+
+.main-navigation {
+    display: flex;
+    justify-content: space-around;
+    padding: 35px;
+    background-color: #edf2f7;
+    width: 100%;
+}
+
+a {
+    color: #1a202c;
+    text-decoration: none;
+}
+
+.link {
+    padding: 10px;
+}
+
+.link:hover {
+    color: #cbd5e0;
+    background-color: #1a202c;
+}
+
+.link--active {
+    color: #cbd5e0;
+    background-color: #1a202c;
+    padding: 10px;
+}
+
+.page-footer {
+    position: static;
+    bottom: 0;
+    width: 100%;
+    padding: 25px;
+    background-color: #edf2f7;
+}
+
+.page-footer p {
+    font-size: 18px;
+}
+
+.page-footer .tg {
+    color: cornflowerblue;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    background-color: #edf2f7;
+    color: #1a202c;
+    border: #1a202c 2px solid;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.button {
+    font-family: "Candara Light", serif;
+    display: block;
+    width: max-content;
+    font-size: 20px;
+    color: honeydew;
+    padding: 10px;
+    background: #1a202c;
+    word-wrap: normal;
+    cursor: pointer;
+    word-break: normal;
+}
+
+.button:hover {
+    background: #3c4148;
+}
+
+.animal h2 {
+    padding: 15px;
+}
+
+.animal p {
+    padding: 15px;
+}
+
+.animal .button {
+    margin-top: 50px;
+}
+
+.page-footer p {
+    color: #1a202c;
+}
+
+.form-field input {
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.form-field textarea {
+    width: 300px;
+    height: 60px;
+    resize: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 300px;
+}
+
+/*# sourceMappingURL=app.css.map */
